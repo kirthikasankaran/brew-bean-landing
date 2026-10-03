@@ -1,16 +1,55 @@
-# React + Vite
+# Brew Bean — Coffee Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive coffee bean landing page built with React.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[View Live Website](https://brew-bean-landing.vercel.app/)
 
-## React Compiler
+## Preview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Desktop
 
-## Expanding the Oxlint configuration
+![Brew Bean Desktop Landing Page](./screenshots/brew-bean-landing-desktop.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### Mobile
+
+![Brew Bean Mobile Landing Page](./screenshots/brew-bean-landing-mobile.png)
+
+## Features
+
+- Responsive design for desktop, tablet, and mobile
+- Mobile-friendly navigation menu
+- Smooth page scrolling
+- Modern coffee-themed UI
+- Reusable React components
+- Responsive layout
+- Clean and simple user interface
+
+## Tech Stack
+
+- React
+- JavaScript
+- CSS
+- Tailwind Css
+- Vite
+- Git & GitHub
+- Vercel
+
+## Responsive Design
+
+The website is designed to provide a smooth experience across:
+- Desktop
+- Mobile
+- Tablet
+
+## Project Structure
+
+```text
+src/
+├── components/
+├── assets/
+├── App.jsx
+└── main.jsx
+
+public/
